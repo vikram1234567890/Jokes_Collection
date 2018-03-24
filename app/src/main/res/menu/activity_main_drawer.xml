@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+   
+
+
+
+
+
+        <item
+            android:id="@+id/language"
+            android:title="Change Language"
+            android:icon="@drawable/translate"
+
+
+            />
+        <item
+            android:id="@+id/joke_category"
+            android:title="Joke Category"
+            android:icon="@drawable/category"
+
+
+            />
+        <item
+            android:id="@+id/more_apps"
+            android:title="More FREE Apps"
+            android:icon="@android:drawable/sym_def_app_icon"
+
+
+            />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+
+                android:icon="@android:drawable/ic_menu_share"
+
+
+                 />
+            <item
+                android:id="@+id/rate"
+                android:title="Rate"
+                android:icon="@android:drawable/star_on"
+                />
+
+
+            <item
+                android:id="@+id/feedback"
+                android:title="Feedback"
+                android:icon="@android:drawable/sym_action_email"
+                />
+            <item
+                android:id="@+id/about"
+                android:title="About"
+                android:icon="@drawable/info"
+                />
+        </menu>
+    </item>
+
+</menu>

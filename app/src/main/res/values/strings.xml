@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Jokes Collection</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="banner_unit_id">ca-app-pub-1211635675454735/8514295609 </string>
+
+</resources>

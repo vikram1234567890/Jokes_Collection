@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/progressBar"
+        app:showAsAction="always"
+        app:actionLayout="@layout/menu_progressbar"
+        android:title="Progress bar"
+        />
+    <item android:id="@+id/edit"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Edit"/>
+    <item android:id="@+id/delete"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Delete"/>
+    <item android:id="@+id/close"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Close"/>
+    <item android:id="@+id/inappropriate"
+        app:showAsAction="never"
+        android:title="Flag Inappropriate"/>
+</menu>
